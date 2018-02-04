@@ -10,4 +10,8 @@ const static std::string smtp_server = "";
 const static std::string pop_server = "";
 
 
+// Pooling
+
+const static unsigned int pooling_interval = 60*5; // 5 min
+
 #endif
